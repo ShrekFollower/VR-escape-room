@@ -11,45 +11,70 @@ public class PuzzleManager : MonoBehaviour
     public GameObject note;
     public GameObject flyswatter;
     public float piecesPlaced;
+    public bool canDelay;
 
     public void puzzleStages() 
     {
         if (piecesPlaced == 4) 
         {
-            foreach (GameObject b in secondPuzzle)
+            if(canDelay != true) 
             {
-                b.SetActive(true);
-                Debug.Log("Second puzzle started");
+                foreach (GameObject b in secondPuzzle)
+                {
+                    b.SetActive(true);
+                    Debug.Log("Second puzzle started");
+                }
+                foreach (GameObject g in firstPuzzle)
+                {
+                    g.SetActive(false);
+                }
+                canDelay = true;
+                Debug.Log("First puzzle completed");
             }
-            foreach (GameObject g in firstPuzzle) 
+
+            else if(canDelay)
             {
-                g.SetActive(false);
+                StartCoroutine(Delay());
             }
-            Debug.Log("First puzzle completed");
         }
 
         if (piecesPlaced == 8)
         {
-            foreach (GameObject g in thirdPuzzle)
+            if (canDelay != true) 
             {
-                g.SetActive(true);
+                foreach (GameObject g in thirdPuzzle)
+                {
+                    g.SetActive(true);
+                }
+                foreach (GameObject g in secondPuzzle)
+                {
+                    g.SetActive(false);
+                }
+                canDelay = true;
+                Debug.Log("Second puzzle completed");
             }
-            foreach (GameObject g in secondPuzzle)
+            else if (canDelay) 
             {
-                g.SetActive(false);
+                StartCoroutine(Delay());
             }
-            Debug.Log("Second puzzle completed");
         }
 
         if (piecesPlaced == 12)
         {
-            foreach (GameObject g in thirdPuzzle)
+            if (canDelay != true) 
             {
-                g.SetActive(false);
+                foreach (GameObject g in thirdPuzzle)
+                {
+                    g.SetActive(false);
+                }
+                flyswatter.SetActive(true);
+                note.SetActive(true);
+                Debug.Log("Third puzzle completed");
             }
-            flyswatter.SetActive(true);
-            note.SetActive(true);
-            Debug.Log("Third puzzle completed");
+            else if (canDelay) 
+            {
+                StartCoroutine(Delay());
+            }
         }
 
         else 
@@ -57,6 +82,13 @@ public class PuzzleManager : MonoBehaviour
             Debug.Log("No milestone reached");
         }
 
+    }
+
+    public IEnumerator Delay() 
+    {
+        yield return new WaitForSeconds(2);
+        canDelay = false;
+        puzzleStages();
     }
 
 }

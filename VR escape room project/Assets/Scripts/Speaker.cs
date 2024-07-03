@@ -27,7 +27,7 @@ public class Speaker : MonoBehaviour
             source.clip = clipsNormal[Random.Range(0,4)];
             if(source.clip == previousClip ) 
             {
-                changeLine();
+                StartCoroutine(changeLine());
             }
             else 
             {
@@ -43,7 +43,7 @@ public class Speaker : MonoBehaviour
             source.clip = clipsSqueeky[Random.Range(0,4)];
             if (source.clip == previousClip)
             {
-                changeLine();
+                StartCoroutine(changeLine());
             }
             else
             {
