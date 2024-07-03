@@ -5,36 +5,29 @@ using UnityEngine;
 public class SortManager : MonoBehaviour
 {
 
-    public float Audio;
-    public float Video;
-    public float Private;
-
+    //current files sorted and the max before the goal is complete.
+    public float filesSorted;
     public float fileMax;
     
+    //animator for the hidden panel
     public Animator anim;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void checkIfTrue()
     {
-        if(Audio == 4 && Video == 4 && Private == 4)
+        // adds 1 to the current sorted files.
+        filesSorted++;
+
+        // checks if the current sorted files is the same as the maximum.
+        // If this is true then it opens the hidden panel by setting the animator to play.
+        if(filesSorted == fileMax)
         {
-            anim.SetBool("play" , true);
+            anim.SetBool("Play" , true);
             Debug.Log("Sorting Completed!");
         }
 
         else
         {
+            // if it is not complete then nothing happens.
             Debug.Log("Sorting Incomplete...");
         }
     }

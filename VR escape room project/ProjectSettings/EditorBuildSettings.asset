@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Escape Room Final.unity
+    guid: 8657d01d2e08c694aab773c4e626e5ff
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 0f4e6f0cb26d98147b51287d89a75480
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2c250005bea427843ada7b88346a61bd, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7ab802a8c0df004787e330f93b81f81, type: 2}

@@ -11,8 +11,6 @@ public class SortScript : MonoBehaviour
     public GameObject sortObject;
     public SortManager sortMng;
 
-    public float tagName;
-
     public void Start()
     {
         sortMng = sortObject.GetComponent<SortManager>();
@@ -25,8 +23,7 @@ public class SortScript : MonoBehaviour
         {
             //if the tag is the same the it adds 1 to the file count.
             fileCount++;
-            sortMng.tagName ++;
-            sortMng.tagName.String ++;
+            Debug.Log(other.gameObject.name);
             sortMng.checkIfTrue();
         }
     }

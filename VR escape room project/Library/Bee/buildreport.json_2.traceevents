@@ -1,0 +1,544 @@
+{ "pid": 25476, "tid": 42949672960, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851764799, "dur": 10755, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851775555, "dur": 510530, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851775562, "dur": 19, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851775583, "dur": 8996, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851784590, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851784595, "dur": 42, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851784641, "dur": 9, "ph": "X", "name": "ProcessMessages 47", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851784651, "dur": 1636, "ph": "X", "name": "ReadAsync 47", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786292, "dur": 41, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786336, "dur": 1, "ph": "X", "name": "ProcessMessages 631", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786338, "dur": 34, "ph": "X", "name": "ReadAsync 631", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786375, "dur": 1, "ph": "X", "name": "ProcessMessages 882", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786377, "dur": 25, "ph": "X", "name": "ReadAsync 882", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786404, "dur": 1, "ph": "X", "name": "ProcessMessages 804", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786406, "dur": 27, "ph": "X", "name": "ReadAsync 804", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786436, "dur": 24, "ph": "X", "name": "ReadAsync 367", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786463, "dur": 24, "ph": "X", "name": "ReadAsync 563", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786490, "dur": 1, "ph": "X", "name": "ProcessMessages 315", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786492, "dur": 26, "ph": "X", "name": "ReadAsync 315", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786521, "dur": 23, "ph": "X", "name": "ReadAsync 596", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786547, "dur": 25, "ph": "X", "name": "ReadAsync 406", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786575, "dur": 60, "ph": "X", "name": "ReadAsync 569", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786640, "dur": 43, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786685, "dur": 1, "ph": "X", "name": "ProcessMessages 603", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786687, "dur": 27, "ph": "X", "name": "ReadAsync 603", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786717, "dur": 1, "ph": "X", "name": "ProcessMessages 689", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786718, "dur": 27, "ph": "X", "name": "ReadAsync 689", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786748, "dur": 1, "ph": "X", "name": "ProcessMessages 667", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786750, "dur": 30, "ph": "X", "name": "ReadAsync 667", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786782, "dur": 1, "ph": "X", "name": "ProcessMessages 752", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786783, "dur": 24, "ph": "X", "name": "ReadAsync 752", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786809, "dur": 1, "ph": "X", "name": "ProcessMessages 697", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786810, "dur": 21, "ph": "X", "name": "ReadAsync 697", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786834, "dur": 21, "ph": "X", "name": "ReadAsync 416", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786859, "dur": 23, "ph": "X", "name": "ReadAsync 684", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786884, "dur": 16, "ph": "X", "name": "ReadAsync 620", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786903, "dur": 19, "ph": "X", "name": "ReadAsync 67", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786924, "dur": 21, "ph": "X", "name": "ReadAsync 403", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786947, "dur": 1, "ph": "X", "name": "ProcessMessages 794", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786948, "dur": 22, "ph": "X", "name": "ReadAsync 794", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851786973, "dur": 86, "ph": "X", "name": "ReadAsync 696", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787061, "dur": 1, "ph": "X", "name": "ProcessMessages 672", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787062, "dur": 33, "ph": "X", "name": "ReadAsync 672", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787097, "dur": 1, "ph": "X", "name": "ProcessMessages 2893", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787099, "dur": 21, "ph": "X", "name": "ReadAsync 2893", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787123, "dur": 24, "ph": "X", "name": "ReadAsync 556", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787149, "dur": 29, "ph": "X", "name": "ReadAsync 743", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787181, "dur": 22, "ph": "X", "name": "ReadAsync 869", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787205, "dur": 58, "ph": "X", "name": "ReadAsync 789", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787264, "dur": 1, "ph": "X", "name": "ProcessMessages 1912", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787266, "dur": 22, "ph": "X", "name": "ReadAsync 1912", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787291, "dur": 20, "ph": "X", "name": "ReadAsync 691", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787314, "dur": 18, "ph": "X", "name": "ReadAsync 520", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787335, "dur": 21, "ph": "X", "name": "ReadAsync 517", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787359, "dur": 23, "ph": "X", "name": "ReadAsync 866", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787385, "dur": 22, "ph": "X", "name": "ReadAsync 699", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787410, "dur": 22, "ph": "X", "name": "ReadAsync 538", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787435, "dur": 24, "ph": "X", "name": "ReadAsync 721", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787461, "dur": 22, "ph": "X", "name": "ReadAsync 832", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787486, "dur": 20, "ph": "X", "name": "ReadAsync 753", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787509, "dur": 16, "ph": "X", "name": "ReadAsync 741", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787527, "dur": 20, "ph": "X", "name": "ReadAsync 81", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787550, "dur": 20, "ph": "X", "name": "ReadAsync 768", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787573, "dur": 25, "ph": "X", "name": "ReadAsync 639", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787601, "dur": 21, "ph": "X", "name": "ReadAsync 974", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787624, "dur": 22, "ph": "X", "name": "ReadAsync 668", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787649, "dur": 20, "ph": "X", "name": "ReadAsync 606", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787672, "dur": 21, "ph": "X", "name": "ReadAsync 418", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787696, "dur": 22, "ph": "X", "name": "ReadAsync 598", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787720, "dur": 19, "ph": "X", "name": "ReadAsync 726", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787742, "dur": 18, "ph": "X", "name": "ReadAsync 426", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787763, "dur": 20, "ph": "X", "name": "ReadAsync 412", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787786, "dur": 21, "ph": "X", "name": "ReadAsync 726", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787809, "dur": 43, "ph": "X", "name": "ReadAsync 641", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787854, "dur": 25, "ph": "X", "name": "ReadAsync 483", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787880, "dur": 1, "ph": "X", "name": "ProcessMessages 1564", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787882, "dur": 20, "ph": "X", "name": "ReadAsync 1564", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787905, "dur": 22, "ph": "X", "name": "ReadAsync 686", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787929, "dur": 21, "ph": "X", "name": "ReadAsync 617", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787952, "dur": 20, "ph": "X", "name": "ReadAsync 643", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851787975, "dur": 26, "ph": "X", "name": "ReadAsync 618", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788004, "dur": 21, "ph": "X", "name": "ReadAsync 685", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788026, "dur": 1, "ph": "X", "name": "ProcessMessages 701", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788028, "dur": 22, "ph": "X", "name": "ReadAsync 701", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788052, "dur": 20, "ph": "X", "name": "ReadAsync 758", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788075, "dur": 19, "ph": "X", "name": "ReadAsync 691", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788097, "dur": 20, "ph": "X", "name": "ReadAsync 625", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788120, "dur": 19, "ph": "X", "name": "ReadAsync 533", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788141, "dur": 22, "ph": "X", "name": "ReadAsync 648", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788166, "dur": 21, "ph": "X", "name": "ReadAsync 642", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788190, "dur": 20, "ph": "X", "name": "ReadAsync 604", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788213, "dur": 21, "ph": "X", "name": "ReadAsync 548", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788237, "dur": 20, "ph": "X", "name": "ReadAsync 515", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788259, "dur": 20, "ph": "X", "name": "ReadAsync 552", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788282, "dur": 23, "ph": "X", "name": "ReadAsync 609", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788307, "dur": 20, "ph": "X", "name": "ReadAsync 720", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788330, "dur": 20, "ph": "X", "name": "ReadAsync 467", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788352, "dur": 20, "ph": "X", "name": "ReadAsync 583", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788375, "dur": 21, "ph": "X", "name": "ReadAsync 678", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788399, "dur": 21, "ph": "X", "name": "ReadAsync 450", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788423, "dur": 22, "ph": "X", "name": "ReadAsync 609", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788448, "dur": 20, "ph": "X", "name": "ReadAsync 590", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788470, "dur": 21, "ph": "X", "name": "ReadAsync 598", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788494, "dur": 18, "ph": "X", "name": "ReadAsync 443", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851788515, "dur": 15691, "ph": "X", "name": "ReadAsync 185", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804217, "dur": 4, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804223, "dur": 30, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804256, "dur": 1, "ph": "X", "name": "ProcessMessages 20", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804257, "dur": 120, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804382, "dur": 10, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804394, "dur": 64, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804463, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804487, "dur": 89, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804579, "dur": 20, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804604, "dur": 47, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804653, "dur": 20, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804676, "dur": 165, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804845, "dur": 26, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804875, "dur": 1, "ph": "X", "name": "ProcessMessages 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804876, "dur": 30, "ph": "X", "name": "ReadAsync 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804911, "dur": 19, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851804934, "dur": 64, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805002, "dur": 24, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805028, "dur": 1, "ph": "X", "name": "ProcessMessages 100", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805029, "dur": 17, "ph": "X", "name": "ReadAsync 100", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805049, "dur": 68, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805121, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805146, "dur": 718, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805870, "dur": 33, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805906, "dur": 1, "ph": "X", "name": "ProcessMessages 148", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805908, "dur": 26, "ph": "X", "name": "ReadAsync 148", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805938, "dur": 30, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805971, "dur": 7, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851805979, "dur": 29, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806012, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806014, "dur": 39, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806055, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806058, "dur": 43, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806104, "dur": 28, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806135, "dur": 72, "ph": "X", "name": "ReadAsync 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806213, "dur": 28, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806244, "dur": 19, "ph": "X", "name": "ReadAsync 52", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806267, "dur": 26, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806296, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806298, "dur": 28, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806329, "dur": 2, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806332, "dur": 26, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806361, "dur": 53, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806419, "dur": 22, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806445, "dur": 18, "ph": "X", "name": "ReadAsync 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806466, "dur": 32, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806502, "dur": 24, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806529, "dur": 24, "ph": "X", "name": "ReadAsync 28", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806556, "dur": 59, "ph": "X", "name": "ReadAsync 52", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806619, "dur": 24, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806646, "dur": 22, "ph": "X", "name": "ReadAsync 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806671, "dur": 22, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806696, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806697, "dur": 21, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806722, "dur": 33, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806759, "dur": 27, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806788, "dur": 1, "ph": "X", "name": "ProcessMessages 28", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806791, "dur": 35, "ph": "X", "name": "ReadAsync 28", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806828, "dur": 1, "ph": "X", "name": "ProcessMessages 84", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806829, "dur": 35, "ph": "X", "name": "ReadAsync 84", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806867, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806868, "dur": 27, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806898, "dur": 2, "ph": "X", "name": "ProcessMessages 100", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806901, "dur": 24, "ph": "X", "name": "ReadAsync 100", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806928, "dur": 30, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806963, "dur": 25, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806990, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851806992, "dur": 19, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807015, "dur": 304, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807323, "dur": 32, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807358, "dur": 1, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807361, "dur": 24, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807387, "dur": 1, "ph": "X", "name": "ProcessMessages 84", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807389, "dur": 31, "ph": "X", "name": "ReadAsync 84", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807425, "dur": 26, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807453, "dur": 22, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807480, "dur": 24, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807506, "dur": 1, "ph": "X", "name": "ProcessMessages 52", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807507, "dur": 21, "ph": "X", "name": "ReadAsync 52", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807531, "dur": 1, "ph": "X", "name": "ProcessMessages 40", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807533, "dur": 72, "ph": "X", "name": "ReadAsync 40", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807608, "dur": 15, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807625, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851807627, "dur": 440, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808071, "dur": 41, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808115, "dur": 2, "ph": "X", "name": "ProcessMessages 108", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808118, "dur": 25, "ph": "X", "name": "ReadAsync 108", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808145, "dur": 2, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808149, "dur": 21, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808172, "dur": 1, "ph": "X", "name": "ProcessMessages 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851808174, "dur": 1852, "ph": "X", "name": "ReadAsync 36", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810032, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810036, "dur": 42, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810082, "dur": 511, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810595, "dur": 49, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810648, "dur": 22, "ph": "X", "name": "ProcessMessages 306", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810672, "dur": 20, "ph": "X", "name": "ReadAsync 306", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810692, "dur": 8, "ph": "X", "name": "ProcessMessages 92", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810702, "dur": 51, "ph": "X", "name": "ReadAsync 92", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810757, "dur": 32, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810793, "dur": 5, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810800, "dur": 13, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810814, "dur": 2, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851810817, "dur": 227, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811050, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811074, "dur": 5, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811079, "dur": 24, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811106, "dur": 3, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811111, "dur": 87, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811202, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811204, "dur": 25, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811232, "dur": 5, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811238, "dur": 637, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811881, "dur": 32, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811916, "dur": 4, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851811921, "dur": 4663, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851816593, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851816598, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851816620, "dur": 16, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851816636, "dur": 3386, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851820030, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851820035, "dur": 34, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851820072, "dur": 10, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990851820083, "dur": 459783, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852279874, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852279878, "dur": 33, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852279913, "dur": 11, "ph": "X", "name": "ProcessMessages 388", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852279925, "dur": 1427, "ph": "X", "name": "ReadAsync 388", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281356, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281379, "dur": 1, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281380, "dur": 516, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281901, "dur": 21, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281924, "dur": 7, "ph": "X", "name": "ProcessMessages 50", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852281933, "dur": 376, "ph": "X", "name": "ReadAsync 50", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852282313, "dur": 19, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852282335, "dur": 1, "ph": "X", "name": "ProcessMessages 13", "args": {} },
+{ "pid": 25476, "tid": 42949672960, "ts": 1719990852282336, "dur": 3745, "ph": "X", "name": "ReadAsync 13", "args": {} },
+{ "pid": 25476, "tid": 28, "ts": 1719990852286558, "dur": 299, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 25476, "tid": 38654705664, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 25476, "tid": 38654705664, "ts": 1719990851761765, "dur": 524346, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 25476, "tid": 38654705664, "ts": 1719990851761845, "dur": 2858, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 25476, "tid": 38654705664, "ts": 1719990852286113, "dur": 100, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 25476, "tid": 38654705664, "ts": 1719990852286214, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 25476, "tid": 28, "ts": 1719990852286859, "dur": 5, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 25476, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 25476, "tid": 1, "ts": 1719990851693021, "dur": 1083, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 25476, "tid": 1, "ts": 1719990851694108, "dur": 61692, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 25476, "tid": 1, "ts": 1719990851755801, "dur": 5940, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 25476, "tid": 28, "ts": 1719990852286866, "dur": 3, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719990851776720, "dur":10159, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990851786891, "dur":204, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990851787140, "dur":274, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990851787426, "dur":2236, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990851789663, "dur":493434, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990852283099, "dur":157, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990852283256, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990852283471, "dur":1120, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719990851787782, "dur":1925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851789709, "dur":201, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851789911, "dur":15322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851805249, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1719990851805303, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851805552, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851806170, "dur":889, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807066, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807065, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807393, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807452, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807576, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807693, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851807866, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851808021, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851808517, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719990851808671, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1719990851811798, "dur":471369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851787771, "dur":1918, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851789692, "dur":264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851789957, "dur":15293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851805277, "dur":728, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851806029, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851806280, "dur":755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807044, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807263, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807262, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807338, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807441, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719990851807440, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719990851808562, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719990851811360, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1719990851812404, "dur":470707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851787775, "dur":1924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851789703, "dur":545, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851790248, "dur":14999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851805296, "dur":887, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851806195, "dur":836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807041, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807167, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807166, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807249, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807455, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807621, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807778, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851807938, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851808046, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851808528, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851808617, "dur":607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851809230, "dur":1950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1719990851809229, "dur":1952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1719990851811182, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719990851811371, "dur":471725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851787831, "dur":1887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851789720, "dur":178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851789898, "dur":15359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851805299, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851806180, "dur":888, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807072, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807071, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807168, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807353, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807352, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807430, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807502, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807685, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807838, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851807995, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851808156, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851808479, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851808601, "dur":623, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719990851809263, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1719990851811844, "dur":471312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851787739, "dur":1937, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851789679, "dur":179, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851789859, "dur":15390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851805292, "dur":879, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851806189, "dur":861, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807063, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807062, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807149, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807379, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807378, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807453, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807585, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807696, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851807858, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851808012, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851808533, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719990851808639, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1719990851811420, "dur":471675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851787762, "dur":1921, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851789686, "dur":207, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851789894, "dur":15351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851805276, "dur":716, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851806022, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851806282, "dur":758, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851807045, "dur":536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719990851807044, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719990851807582, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851807656, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851807946, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851808047, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851808494, "dur":743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719990851809264, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1719990851811756, "dur":471338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719990851787708, "dur":1962, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719990851789673, "dur":15556, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719990851805248, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719990851805352, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1719990851805429, "dur":5753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1719990851805346, "dur":6141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1719990851811680, "dur":82, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719990851812331, "dur":468665, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1719990852282431, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1719990852282430, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1719990852282507, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1719990851787804, "dur":1908, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851789715, "dur":159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851789874, "dur":15380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851805278, "dur":769, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851806060, "dur":1036, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807099, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807098, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807346, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807575, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807689, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807848, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851807971, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851808143, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851808521, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719990851808676, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1719990851811787, "dur":471374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851787856, "dur":1867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851789725, "dur":315, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851790040, "dur":15202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851805281, "dur":888, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851806178, "dur":843, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807028, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807135, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807134, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807261, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807378, "dur":430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807377, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807809, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851807869, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851808038, "dur":455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851808501, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719990851808777, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1719990851811855, "dur":471294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851787887, "dur":1844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851789734, "dur":187, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851789921, "dur":15348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851805300, "dur":876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851806205, "dur":818, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851807032, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851807169, "dur":854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719990851807168, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719990851808024, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851808087, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851808527, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851808642, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851808835, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719990851809270, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1719990851811941, "dur":471197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851787904, "dur":1834, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851789738, "dur":15499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851805271, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851805617, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1719990851805686, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851806193, "dur":828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807034, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807186, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807185, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807364, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807456, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807617, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807811, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851807960, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851808112, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851808498, "dur":733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719990851809293, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1719990851811351, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1719990851812286, "dur":470839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851787928, "dur":1818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851789746, "dur":15492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851805268, "dur":541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851805839, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851806208, "dur":856, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807068, "dur":510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807067, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807579, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807641, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807835, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851807990, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851808498, "dur":730, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719990851809266, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1719990851812246, "dur":470886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851787946, "dur":1807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851789753, "dur":15482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851805254, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1719990851805238, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1719990851805400, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851805840, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851806193, "dur":822, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807026, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807142, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807141, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807230, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807375, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807374, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807456, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807637, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851807893, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851808027, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851808481, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851808651, "dur":647, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719990851809309, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1719990851813057, "dur":470090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851787966, "dur":1795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851789761, "dur":15492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851805304, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851806065, "dur":961, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807035, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807150, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807149, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807304, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807405, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807404, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807512, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807621, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807790, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851807944, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851808059, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851808523, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851808629, "dur":635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719990851809274, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1719990851812010, "dur":471110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851787983, "dur":1784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851789767, "dur":15464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851805243, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851805339, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851805761, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851806189, "dur":849, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807043, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807041, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807102, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807261, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807260, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807367, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807496, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807625, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807805, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851807952, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851808124, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851808504, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719990851808774, "dur":8938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1719990851817733, "dur":465372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851788005, "dur":1764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851789770, "dur":15490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851805301, "dur":733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851806057, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851806164, "dur":883, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807051, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807050, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807128, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807281, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\helix\\VR escape room\\VR escape room project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807281, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/helix/Downloads/VR project/VR escape room project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807567, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807629, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807767, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851807952, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851808076, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851808489, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719990851808776, "dur":12396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/helix/Downloads/VR project/VR escape room project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1719990851821193, "dur":461906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719990852286512, "dur":537, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 25476, "tid": 28, "ts": 1719990852286934, "dur": 1427, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 25476, "tid": 28, "ts": 1719990852288409, "dur": 2040, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 25476, "tid": 28, "ts": 1719990852286555, "dur": 3921, "ph": "X", "name": "Write chrome-trace events", "args": {} },

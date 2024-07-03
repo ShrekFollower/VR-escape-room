@@ -6,7 +6,17 @@ TagManager:
   tags:
   - MP4
   - EXE
-  - TXT
+  - MP3
+  - Button
+  - Piece 1
+  - Piece 2
+  - Piece 3
+  - Piece 4
+  - Hammer
+  - Note 1
+  - Note 2
+  - Note 3
+  - FlySwatter
   layers:
   - Default
   - TransparentFX
@@ -14,7 +24,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Room
   - 
   - 
   - 

@@ -22,6 +22,7 @@ public class Speaker : MonoBehaviour
     {
         if (isNormal) 
         {
+            // chooses a random clip from the normal lines before playing it and resetting the wait time.
             source.clip = clipsNormal[Random.Range(0,4)];
             source.Play();
             yield return new WaitForSeconds(waitTime);
@@ -29,6 +30,7 @@ public class Speaker : MonoBehaviour
         }
         else 
         {
+            // chooses a random clip from the squeaky lines before playing it and resetting the wait time.
             source.clip = clipsSqueeky[Random.Range(0,4)];
             source.Play();
             yield return new WaitForSeconds(waitTime);
